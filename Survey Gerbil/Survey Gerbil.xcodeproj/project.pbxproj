@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB5E5C519EC81B500689A1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5E5C419EC81B500689A1D /* main.m */; };
+		9DB5E5C819EC81B500689A1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5E5C719EC81B500689A1D /* AppDelegate.m */; };
+		9DB5E5CB19EC81B500689A1D /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5E5CA19EC81B500689A1D /* SummaryViewController.m */; };
+		9DB5E5CE19EC81B500689A1D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5E5CD19EC81B500689A1D /* MapViewController.m */; };
+		9DB5E5D119EC81B500689A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB5E5CF19EC81B500689A1D /* Main.storyboard */; };
+		9DB5E5D319EC81B500689A1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB5E5D219EC81B500689A1D /* Images.xcassets */; };
+		9DB5E5D619EC81B500689A1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB5E5D419EC81B500689A1D /* LaunchScreen.xib */; };
+		9DB5E5E219EC81B500689A1D /* Survey_GerbilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5E5E119EC81B500689A1D /* Survey_GerbilTests.m */; };
+		9DB5E5EE19EC820300689A1D /* Observation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5E5ED19EC820300689A1D /* Observation.m */; };
+		9DB5E5F119EC821100689A1D /* Survey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5E5F019EC821100689A1D /* Survey.m */; };
+		9DB5E61D19EC949100689A1D /* EditObsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5E61C19EC949100689A1D /* EditObsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DB5E5DC19EC81B500689A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DB5E5B719EC81B400689A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB5E5BE19EC81B500689A1D;
+			remoteInfo = "Survey Gerbil";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DB5E5BF19EC81B500689A1D /* Survey Gerbil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Survey Gerbil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB5E5C319EC81B500689A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB5E5C419EC81B500689A1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DB5E5C619EC81B500689A1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DB5E5C719EC81B500689A1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DB5E5C919EC81B500689A1D /* SummaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		9DB5E5CA19EC81B500689A1D /* SummaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		9DB5E5CC19EC81B500689A1D /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9DB5E5CD19EC81B500689A1D /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9DB5E5D019EC81B500689A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DB5E5D219EC81B500689A1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DB5E5D519EC81B500689A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9DB5E5DB19EC81B500689A1D /* Survey GerbilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Survey GerbilTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB5E5E019EC81B500689A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB5E5E119EC81B500689A1D /* Survey_GerbilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Survey_GerbilTests.m; sourceTree = "<group>"; };
+		9DB5E5EC19EC820300689A1D /* Observation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observation.h; sourceTree = "<group>"; };
+		9DB5E5ED19EC820300689A1D /* Observation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observation.m; sourceTree = "<group>"; };
+		9DB5E5EF19EC821100689A1D /* Survey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Survey.h; sourceTree = "<group>"; };
+		9DB5E5F019EC821100689A1D /* Survey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Survey.m; sourceTree = "<group>"; };
+		9DB5E5F219EC824D00689A1D /* loggingMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loggingMacros.h; path = "../../../classroom-au14/Gerbil 1 starter/Gerbil 1 starter/loggingMacros.h"; sourceTree = "<group>"; };
+		9DB5E61A19EC90CC00689A1D /* loggingMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loggingMacros.h; sourceTree = "<group>"; };
+		9DB5E61B19EC949100689A1D /* EditObsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditObsViewController.h; sourceTree = "<group>"; };
+		9DB5E61C19EC949100689A1D /* EditObsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditObsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DB5E5BC19EC81B500689A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB5E5D819EC81B500689A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DB5E5B619EC81B400689A1D = {
+			isa = PBXGroup;
+			children = (
+				9DB5E5C119EC81B500689A1D /* Survey Gerbil */,
+				9DB5E5DE19EC81B500689A1D /* Survey GerbilTests */,
+				9DB5E5C019EC81B500689A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DB5E5C019EC81B500689A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5E5BF19EC81B500689A1D /* Survey Gerbil.app */,
+				9DB5E5DB19EC81B500689A1D /* Survey GerbilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DB5E5C119EC81B500689A1D /* Survey Gerbil */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5E61A19EC90CC00689A1D /* loggingMacros.h */,
+				9DB5E5C619EC81B500689A1D /* AppDelegate.h */,
+				9DB5E5C719EC81B500689A1D /* AppDelegate.m */,
+				9DB5E5F319EC826000689A1D /* Model */,
+				9DB5E5EB19EC81F100689A1D /* View Controllers */,
+				9DB5E5CF19EC81B500689A1D /* Main.storyboard */,
+				9DB5E5D219EC81B500689A1D /* Images.xcassets */,
+				9DB5E5D419EC81B500689A1D /* LaunchScreen.xib */,
+				9DB5E5F219EC824D00689A1D /* loggingMacros.h */,
+				9DB5E5C219EC81B500689A1D /* Supporting Files */,
+			);
+			path = "Survey Gerbil";
+			sourceTree = "<group>";
+		};
+		9DB5E5C219EC81B500689A1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5E5C319EC81B500689A1D /* Info.plist */,
+				9DB5E5C419EC81B500689A1D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DB5E5DE19EC81B500689A1D /* Survey GerbilTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5E5E119EC81B500689A1D /* Survey_GerbilTests.m */,
+				9DB5E5DF19EC81B500689A1D /* Supporting Files */,
+			);
+			path = "Survey GerbilTests";
+			sourceTree = "<group>";
+		};
+		9DB5E5DF19EC81B500689A1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5E5E019EC81B500689A1D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DB5E5EB19EC81F100689A1D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5E61B19EC949100689A1D /* EditObsViewController.h */,
+				9DB5E61C19EC949100689A1D /* EditObsViewController.m */,
+				9DB5E5C919EC81B500689A1D /* SummaryViewController.h */,
+				9DB5E5CA19EC81B500689A1D /* SummaryViewController.m */,
+				9DB5E5CC19EC81B500689A1D /* MapViewController.h */,
+				9DB5E5CD19EC81B500689A1D /* MapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9DB5E5F319EC826000689A1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5E5EC19EC820300689A1D /* Observation.h */,
+				9DB5E5ED19EC820300689A1D /* Observation.m */,
+				9DB5E5EF19EC821100689A1D /* Survey.h */,
+				9DB5E5F019EC821100689A1D /* Survey.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DB5E5BE19EC81B500689A1D /* Survey Gerbil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB5E5E519EC81B500689A1D /* Build configuration list for PBXNativeTarget "Survey Gerbil" */;
+			buildPhases = (
+				9DB5E5BB19EC81B500689A1D /* Sources */,
+				9DB5E5BC19EC81B500689A1D /* Frameworks */,
+				9DB5E5BD19EC81B500689A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Survey Gerbil";
+			productName = "Survey Gerbil";
+			productReference = 9DB5E5BF19EC81B500689A1D /* Survey Gerbil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DB5E5DA19EC81B500689A1D /* Survey GerbilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB5E5E819EC81B500689A1D /* Build configuration list for PBXNativeTarget "Survey GerbilTests" */;
+			buildPhases = (
+				9DB5E5D719EC81B500689A1D /* Sources */,
+				9DB5E5D819EC81B500689A1D /* Frameworks */,
+				9DB5E5D919EC81B500689A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB5E5DD19EC81B500689A1D /* PBXTargetDependency */,
+			);
+			name = "Survey GerbilTests";
+			productName = "Survey GerbilTests";
+			productReference = 9DB5E5DB19EC81B500689A1D /* Survey GerbilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DB5E5B719EC81B400689A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Schoeggl apps";
+				TargetAttributes = {
+					9DB5E5BE19EC81B500689A1D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					9DB5E5DA19EC81B500689A1D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 9DB5E5BE19EC81B500689A1D;
+					};
+				};
+			};
+			buildConfigurationList = 9DB5E5BA19EC81B400689A1D /* Build configuration list for PBXProject "Survey Gerbil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DB5E5B619EC81B400689A1D;
+			productRefGroup = 9DB5E5C019EC81B500689A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DB5E5BE19EC81B500689A1D /* Survey Gerbil */,
+				9DB5E5DA19EC81B500689A1D /* Survey GerbilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DB5E5BD19EC81B500689A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB5E5D119EC81B500689A1D /* Main.storyboard in Resources */,
+				9DB5E5D619EC81B500689A1D /* LaunchScreen.xib in Resources */,
+				9DB5E5D319EC81B500689A1D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB5E5D919EC81B500689A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DB5E5BB19EC81B500689A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB5E5CE19EC81B500689A1D /* MapViewController.m in Sources */,
+				9DB5E5EE19EC820300689A1D /* Observation.m in Sources */,
+				9DB5E61D19EC949100689A1D /* EditObsViewController.m in Sources */,
+				9DB5E5C819EC81B500689A1D /* AppDelegate.m in Sources */,
+				9DB5E5F119EC821100689A1D /* Survey.m in Sources */,
+				9DB5E5CB19EC81B500689A1D /* SummaryViewController.m in Sources */,
+				9DB5E5C519EC81B500689A1D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB5E5D719EC81B500689A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB5E5E219EC81B500689A1D /* Survey_GerbilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DB5E5DD19EC81B500689A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB5E5BE19EC81B500689A1D /* Survey Gerbil */;
+			targetProxy = 9DB5E5DC19EC81B500689A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DB5E5CF19EC81B500689A1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB5E5D019EC81B500689A1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DB5E5D419EC81B500689A1D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB5E5D519EC81B500689A1D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DB5E5E319EC81B500689A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DB5E5E419EC81B500689A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DB5E5E619EC81B500689A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Survey Gerbil/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DB5E5E719EC81B500689A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Survey Gerbil/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DB5E5E919EC81B500689A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Survey GerbilTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Survey Gerbil.app/Survey Gerbil";
+			};
+			name = Debug;
+		};
+		9DB5E5EA19EC81B500689A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Survey GerbilTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Survey Gerbil.app/Survey Gerbil";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DB5E5BA19EC81B400689A1D /* Build configuration list for PBXProject "Survey Gerbil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB5E5E319EC81B500689A1D /* Debug */,
+				9DB5E5E419EC81B500689A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB5E5E519EC81B500689A1D /* Build configuration list for PBXNativeTarget "Survey Gerbil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB5E5E619EC81B500689A1D /* Debug */,
+				9DB5E5E719EC81B500689A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DB5E5E819EC81B500689A1D /* Build configuration list for PBXNativeTarget "Survey GerbilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB5E5E919EC81B500689A1D /* Debug */,
+				9DB5E5EA19EC81B500689A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DB5E5B719EC81B400689A1D /* Project object */;
+}

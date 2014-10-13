@@ -1,0 +1,15 @@
+//
+//  SecondViewController.h
+//  Survey Gerbil
+//
+//  Created by iGuest on 10/13/14.
+//  Copyright (c) 2014 Schoeggl apps. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MapViewController : UIViewController
+
+
+@end
+
